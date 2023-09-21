@@ -3,3 +3,56 @@ body {
     color: black;
     background-color: #fff;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+} */
+
+/** ================HEADER==================== */
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-logo-blue {
+}
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+}
+.address {
+}
+.hero {
+}
+.hero-title {
+}
+.hero-button {
+}
+.section-one {
+}
+.section-one-title {
+}
+.section-one-list {
+}
+.section-one-item {
+}
+.section-one-subtitle {
+}
+.section-one-item-text {
+}

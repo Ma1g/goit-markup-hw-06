@@ -43,6 +43,12 @@ a {
 .header-menu-item {
 }
 .header-menu-link {
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Body Medium */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 .address {
     font-style: normal;
@@ -52,6 +58,12 @@ a {
 .address-menu-item {
 }
 .address-menu-link {
+    color: var(--SLATE, #434455);
+    /* Body */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 
 /** ====================== Hero ====================== **/

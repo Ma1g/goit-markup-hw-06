@@ -30,8 +30,8 @@ a {
     color: var(--IRIS, #4D5AE5);
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .header-logo-normal {
@@ -76,10 +76,11 @@ a {
 
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 .hero-button {
+    
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;

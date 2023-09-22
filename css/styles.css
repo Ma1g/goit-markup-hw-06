@@ -59,16 +59,107 @@ a {
 }
 .hero-button {
 }
-.section-one {
-    background-color: #2e2f42;
+
+/** ====================== The benefits ====================== **/
+
+.benefits {
 }
-.section-one-title {
+.benefits-title {
 }
-.section-one-list {
+.benefits-list {
 }
-.section-one-item {
+.benefits-item {
 }
-.section-one-subtitle {
+.benefits-subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
 }
-.section-one-item-text {
+.benefits-item-text {
+    color: var(--SLATE, #434455);
+    /* Body */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+/** ====================== The Team ====================== **/
+
+.team {
+}
+.team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    }
+.team-list {
+}
+.team-item {
+}
+.team-image {
+}
+.team-worker-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+.team-worker-position {
+    color: var(--SLATE, #434455);
+    text-align: center;
+    /* Body */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+/** ====================== The Portfolio ====================== **/
+
+.portfolio {
+}
+.portfolio-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    }
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-image {
+}
+.portfolio-item-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+.portfolio-item-type {
+    color: var(--SLATE, #434455);
+    /* Body */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }

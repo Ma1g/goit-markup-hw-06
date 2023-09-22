@@ -53,12 +53,29 @@ a {
 }
 .address-menu-link {
 }
+
+/** ====================== Hero ====================== **/
+
+
 .hero {
+    background: var(--NAVY-BLUE, #2E2F42);
 }
 .hero-title {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Header 1 */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
 }
 .hero-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 }
+
 
 /** ====================== The benefits ====================== **/
 
@@ -91,6 +108,7 @@ a {
 /** ====================== The Team ====================== **/
 
 .team {
+    background: var(--CLOUD, #F4F4FD);
 }
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -167,8 +185,27 @@ a {
 /** ====================== Footer ====================== **/
 
 .footer {
+    background: var(--NAVY-BLUE, #2E2F42);
 }
-.footer-logo {
+.footer-logo-blue {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
+.footer-logo-normal {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    }
 .footer-text {
 }

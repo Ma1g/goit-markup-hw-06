@@ -27,7 +27,7 @@ a {
 .header-navigation {
 }
 .header-logo-blue {
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -43,7 +43,7 @@ a {
 .header-menu-item {
 }
 .header-menu-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
 
     font-size: 16px;
     font-weight: 500;
@@ -64,15 +64,14 @@ a {
 .address-menu-item {
 }
 .address-menu-link {
-    color: var(--SLATE, #434455);
+    color: #434455;
 
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.address-menu-link:hover
+.address-menu-link:hover,
 .address-menu-link:focus{
     color: #404bbf;
 }
@@ -86,9 +85,9 @@ a {
 .hero-title {
     color: #FFFFFF;
     font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 .hero-button {
     background-color: #4D5AE5;
@@ -100,8 +99,8 @@ a {
     color: #FFFFFF;
     cursor: pointer;
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
     color: #404BBF;
 }
@@ -154,6 +153,7 @@ a {
     background-color: #FFFFFF;
 }
 .team-item {
+    background-color: #FFFFFF;
 }
 .team-image {
 }
@@ -227,7 +227,7 @@ a {
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
-    line-height: 1.11;
+    line-height: 1.17;
     text-transform: uppercase;
 }
 .footer-logo-normal {

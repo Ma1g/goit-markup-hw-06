@@ -76,23 +76,26 @@ a {
 
 
 .hero {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background-color: #2E2F42;
 }
 .hero-title {
-    color: var(--WHITE, #FFF);
-    text-align: center;
-
+    color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
+    line-height: 60px;
+    letter-spacing: 1.12px;
 }
 .hero-button {
-    
+    color: #FFFFFF;
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #FFFFFF;
+    color: #404BBF;
 }
 
 

@@ -102,7 +102,6 @@ a {
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF;
-    color: #404BBF;
 }
 
 
@@ -143,7 +142,6 @@ a {
     text-align: center;
 
     font-size: 36px;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     line-height: 1.11;
@@ -185,7 +183,6 @@ a {
     text-align: center;
 
     font-size: 36px;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     line-height: 1.11;
@@ -224,7 +221,6 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
     line-height: 1.17;

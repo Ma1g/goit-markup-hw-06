@@ -47,7 +47,7 @@ a {
 
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
@@ -86,7 +86,7 @@ a {
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .hero-button {
@@ -120,16 +120,15 @@ a {
 
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .benefits-item-text {
     color: #434455;
 
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /** ====================== The Team ====================== **/
@@ -143,7 +142,7 @@ a {
 
     font-size: 36px;
     line-height: 40px;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
     }
@@ -161,17 +160,16 @@ a {
 
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
 }
 .team-worker-position {
     color: #434455;
     text-align: center;
 
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /** ====================== The Portfolio ====================== **/
@@ -183,8 +181,7 @@ a {
     text-align: center;
 
     font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
     }
@@ -200,15 +197,14 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .portfolio-item-type {
     color: #434455;
 
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 /** ====================== Footer ====================== **/
@@ -222,7 +218,7 @@ a {
     font-size: 18px;
     font-style: normal;
     line-height: 21px;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
 }
@@ -233,7 +229,6 @@ a {
     color: #F4F4FD;
 
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }

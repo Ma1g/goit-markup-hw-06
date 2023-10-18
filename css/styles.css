@@ -578,7 +578,14 @@ address {
 }
 
 .modal-btn {
-
+  background-color: transparent;
+  border: none;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 24px;
 }
 
 .modal-btn-icon {

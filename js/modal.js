@@ -5,9 +5,10 @@
         modal: document.querySelector('[data-modal]'),
     };
 
-    refs.openModalBtn.addEventListener('click', toogleModal);
+    refs.openModalBtn.addEventListener('click', togleModal);
     refs.closeModalBtn.addEventListener('click', toggleModal);
+
     function toogleModal() {
-        refs.modal.classList.toogle('modal-is-open');
+        refs.modal.classList.toogle('is-open');
     }
 })();

@@ -865,7 +865,7 @@ address {
   outline: 1px solid #2e2f42;
 }
 
-.modal-is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;

@@ -507,7 +507,6 @@ address {
 }
 
 .footer-social-block {
-  padding-right: 80px;
 }
 
 .footer-social-title {
@@ -552,6 +551,7 @@ address {
 }
 
 .footer-form-block {
+  margin: 0 0 0 auto;
 }
 
 .footer-form-title {

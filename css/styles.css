@@ -936,7 +936,7 @@ Backdrop
   width: 100%;
   height: 100%;
   z-index: 98;
-  background-color: rgba(46, 47, 66, 0.40);
+  background-color: #fff;
   top: 0;
   left: 0;
   opacity: 0;
@@ -1169,6 +1169,7 @@ Backdrop
 }
 
 @media screen and (min-width: 768px) {
+
   .modal {
     width: 408px;
     height: 584px;
@@ -1185,7 +1186,7 @@ Backdrop
 Mobile Menu
 ============================================================================*/
 
-my-menu-backdrop {
+.my-menu-backdrop {
   background: #fff;
 }
 
@@ -1256,7 +1257,6 @@ my-menu-backdrop {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding: 20px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1291,14 +1291,16 @@ my-menu-backdrop {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 12px;
-  padding-bottom: 12px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .my-menu-address-link:active,
 .my-menu-address-link:focus-visible {
   color: #4d5ae5;
+}
+
+.my-menu-address-current {
+  color: #404bbf;
 }
 
 .my-menu-social-list {
